@@ -138,7 +138,106 @@ HTML 5
             iframe                              src
 
         Links        
-        Forms        
+            a       anchro element              href
+                                                target      _self/_blank/frameName
+        Forms      
+            form    group data to be submitted  action      url to which data be submitted
+                                                method      GET / POST
+            label   description of a field      
+            input   accepting value of a field  value       defualt field value
+                                                type        text
+                                                            number
+                                                            range
+                                                            file
+                                                            date
+                                                            datatime
+                                                            time
+                                                            week
+                                                            email
+                                                            password
+                                                            radio
+                                                            checkbox
+                                                id
+                                                name        field name
+                                                min         takes the minimum possible value
+                                                max         takes the maximum possible value
+                                                required
+                                                minlength   takes the minimum length of a text
+                                                maxlength   takes the maximum length of a text
+                                                pattern     takes a regexp to validate a text
+
+            button  creates a push button       type        button
+                                                            reset
+                                                            submit (default)
+
+            textarea                            rows
+                                                cols
+            select                              
+              option                            value
+
+CSS 3
+-------------------------------------------------------------
+
+    Cascading Style Sheets used to apply styles on a html document. Style
+    dictates the way an html element has to appear.
+
+    CSS can be appleid in three ways
+
+        1. inline styles
+
+            every html element has a 'style' attribute, a ';' seperated
+            list of css-property:value pairs can be givne to the 'style attribute.
+
+            <tagName style="css-property:value;css-property2:value;">
+                Tag Content
+            </tagName>
+
+        2. embeded styles
+
+            We use an element called 'style' inside the 'head' element.
+
+            <head>
+                <style>
+                    selector {
+                        css-property1:value;
+                        css-property2:value;
+                    }
+                </style>
+            </head>
+
+            selector is a 'piece of text' that decides on what set of html elements
+            should the enclosed style be applied..!
+
+                a. tag name selector
+                    
+                    tagName {
+                        css-property1:value;
+                        css-property2:value;
+                    }
+
+                    this style is applied to all the elements having the same tagName.
+
+                b. attribute selector
+
+                    [attributeName] {
+                        css-property1:value;
+                        css-property2:value;
+                    }
+
+                    this styke is applied to all those elements having this 'attributeName'.
+                c. id selector
+
+                    #id{
+                        css-property1:value;
+                        css-property2:value;
+                    }
+
+                    this style is applied to an element having the given 'id'.
+                    
+                d. class selector
+                e. psuedo selector
+
+        3. external styles
 
 
 
