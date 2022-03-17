@@ -383,7 +383,7 @@ CSS 3
                     scroll
                     auto
                     hidden
-                    
+                
     CSS Operators
     -------------------------------------
         s1		applies to elements that have s1 as tag name
@@ -467,7 +467,7 @@ JavaScript (ES6)
             we need a javascript runtime to execute the script
             without a browser. And NodeJS is one such runtime.
 
-            1. javascript inherits it syntx fgrom c and cpp,hence case sensitive
+            1. javascript inherits it syntx from c and cpp,hence case sensitive
             2. is a dynamically typed language
                 integer,floats,strings,null,array,function,undefined
 
