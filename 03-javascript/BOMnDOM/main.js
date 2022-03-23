@@ -44,6 +44,11 @@ const displayItems = () => {
         btn.addEventListener('click', deleteBtnClicked(item.id));
         tds[4].appendChild(btn);
 
+        let btn2 = document.createElement("button");
+        btn2.textContent = "Add to Cart";
+        btn2.addEventListener('click', addToCartBtnClicked(item.id));
+        tds[4].appendChild(btn2);
+
         dataTableBody.appendChild(tr);
     });
 
@@ -73,6 +78,10 @@ const deleteBtnClicked = itemId => event => {
         }
     }
 }
+
+const addToCartBtnClicked = itemId => {
+    
+};
 
 const addItem = event => {
 

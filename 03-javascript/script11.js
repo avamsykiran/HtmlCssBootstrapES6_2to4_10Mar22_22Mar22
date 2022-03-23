@@ -34,10 +34,10 @@ let emps = [
 
 console.log(emps);
 
-emps.pop();
+emps.pop(); //remove the last inserted element.
 console.log(emps);
 
-emps.splice(4,2);
+emps.splice(4,2);//removes the 4th and 5th elements
 console.log(emps);
 
 emps.push(new Emp(getNextId(),"Koaml",78900));

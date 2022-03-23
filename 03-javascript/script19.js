@@ -4,7 +4,7 @@
     console.log(`counting the factors of ${n}...`)
 
     if(n===0){
-        reject("Zero si neither prime nor composite");
+        reject("Zero is neither prime nor composite");
         return;
     }
 
@@ -56,4 +56,5 @@ let pickPrimes = async (...nums) => {
     return noOfPrimes;
 }
 
-pickPrimes(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10).then(priemsCount => console.log(`${priemsCount} primes found`))
+pickPrimes(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+.then(priemsCount => console.log(`${priemsCount} primes found`));
